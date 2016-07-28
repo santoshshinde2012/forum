@@ -1,0 +1,6 @@
+@media only screen and (max-width: 767px) {	
+	.login-card {  left: 0; top: 200px;}
+	.btn-account { float: none !important; padding-bottom: 20px; padding-left: 0; }
+	.navbar-inverse .navbar-collapse { border-color: rgba(255, 255, 255, 0.7); }
+	.login-card .card:after { left: 35px; }
+}

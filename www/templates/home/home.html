@@ -1,0 +1,112 @@
+<!-- Page Content -->
+<section class="main-content">
+    <div class="container">
+        <div class='col-xs-12 details-tab'>
+          <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#overview" aria-controls="overview" role="tab" data-toggle="tab">Overview</a></li>
+            <li role="presentation"><a href="#account" aria-controls="account" role="tab" data-toggle="tab">Account</a></li>
+            <li role="presentation"><a href="#projects" aria-controls="projects" role="tab" data-toggle="tab">Projects</a></li>
+          </ul>
+
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="overview">
+                <div class="row">
+
+                    <!-- Sidebar -->
+                    <div class="col-md-3 sidebar" ng-include="'templates/home/sidebar.html'">
+                    </div>
+
+                    <div class="col-md-9">
+
+                        <div class="row carousel-holder">
+
+                            <div class="col-md-12">
+                                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img class="slide-image" src="images/banner/banner-3.png" alt="Banner">
+                                        </div>
+                                        <div class="item">
+                                            <img class="slide-image" src="images/banner/banner-1.jpg" alt="Banner">
+                                        </div>
+                                        <div class="item">
+                                            <img class="slide-image" src="images/banner/banner-2.png" alt="Banner">
+                                        </div>
+                                    </div>
+                                    <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                                        <span class="glyphicon glyphicon-chevron-left"></span>
+                                    </a>
+                                    <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right"></span>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-8 col-xs-12">
+                                <h3>John Doe</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                            </div>
+                            <div class="col-sm-4 col-xs-12 right-bar">
+                                <ul class="list-group">
+                                      <li class="list-group-item active">
+                                        Technologies
+                                      </li>
+                                      <li class="list-group-item">
+                                        Angular js
+                                      </li>
+                                      <li class="list-group-item">
+                                        Jquery
+                                      </li>
+                                      <li class="list-group-item">
+                                        HTML5/CSS3
+                                      </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="row social-contact">
+                            <div class="col-sm-2 col-xs-12" ng-repeat="link in links"><a href="{{link.link}}" target="_blank"><i class="{{link.iconclass}}"></i> {{link.name}}</a></div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-12 user-panel">
+                                <div class="panel with-nav-tabs">
+                                    <div class="panel-heading">
+                                            <ul class="nav nav-tabs">
+                                                <li class="active"><a href="#tab1primary" data-toggle="tab">Primary 1</a></li>
+                                                <li><a href="#tab2primary" data-toggle="tab">Primary 2</a></li>
+                                                <li><a href="#tab3primary" data-toggle="tab">Primary 3</a></li>
+                                                <li class="dropdown"><a href="#tab4primary" data-toggle="tab">Primary 4</a></li>
+                                            </ul>
+                                    </div>
+                                    <div class="panel-body">
+                                        <div class="tab-content">
+                                            <div class="tab-pane fade in active" id="tab1primary">Primary 1</div>
+                                            <div class="tab-pane fade" id="tab2primary">Primary 2</div>
+                                            <div class="tab-pane fade" id="tab3primary">Primary 3</div>
+                                            <div class="tab-pane fade" id="tab4primary">Primary 4</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="account">Account Content</div>
+            <div role="tabpanel" class="tab-pane" id="projects">Projects Content</div>
+          </div>
+        </div>
+    </div>
+</section>

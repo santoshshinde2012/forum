@@ -1,0 +1,41 @@
+{
+	"socialLinks" : [
+		{
+			"name" : "Github",
+			"iconclass" : "fa fa-github-square",
+			"link" : "https://github.com/",
+			"description" : "This is redirect to github account"
+		},
+		{
+			"name" : "Linkedin",
+			"iconclass" : "fa fa-linkedin-square",
+			"link" : "https://in.linkedin.com/",
+			"description" : "This is redirect to Linkedin account"
+		},
+		{
+			"name" : "Facebook",
+			"iconclass" : "fa fa-facebook-square",
+			"link" : "https://www.facebook.com/",
+			"description" : "This is redirect to Facebook account"
+		},
+		{
+			"name" : "Stack Overflow",
+			"iconclass" : "fa fa-stack-overflow",
+			"link" : "https://stackoverflow.com/",
+			"description" : "This is redirect to Stack Overflow account"
+		},
+		{
+			"name" : "Twitter",
+			"iconclass" : "fa fa-twitter-square",
+			"link" : "https://twitter.com/",
+			"description" : "This is redirect to Twitter account"
+		},
+		{
+			"name" : "Google +",
+			"iconclass" : "fa fa-google-plus-square",
+			"link" : "https://github.com/",
+			"description" : "This is redirect to Google + account"
+		}
+
+	]
+}
